@@ -1,5 +1,21 @@
 @charset "utf-8";
 
+/* Shorthand:
+
+margin: 40px; all 4 sides
+margin: 40px auto, top/bottom right/left
+margin: 40px quto 0; top right/left bottom
+margin: 40px 30px 5px 10px; top right bottom left
+
+Start at the top, then continue clockwise around the box.
+
+Units of measurement:
+
+width = %
+Height = rem
+Type = rem
+Graphics = pixels (px) (e.g. border would be a graphic" */
+
 /* Controls the size of the viewport */
 
 @-moz-viewport { width: device-width; scale: 1; } /* Firefox */
@@ -32,5 +48,21 @@ html {
 
 img {
 	width: 100%; /* controls image size depending on size of browser */
-    display: block;
+    display: block; 
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background-color: maroon;
+}
+    
+    
+    
+    
+    
+    
+    
